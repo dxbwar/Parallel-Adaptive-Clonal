@@ -64,5 +64,5 @@ while ((Count < MAXGEN))                    %ÖÕÖ¹Ìõ¼þÅÐ¶Ï
     Count = Count + 1
 end
 
-plot(1:MAXGEN-1,result(1:MAXGEN-1, numVar+1));
+plot(1:MAXGEN-1,result(1:MAXGEN-1, numVar+1))
 delete(gcp);
